@@ -189,11 +189,6 @@ a.row{
   color:var(--ink);
   transition:border-color .2s ease;
 }
-.row-chapters{display:flex; flex-wrap:wrap; gap:4px 14px; padding:0 0 16px calc(2.4em + 18px); margin-top:-10px;}
-.row-chapters a{font-size:11.5px; color:var(--ink-soft); text-decoration:none; line-height:1.6; transition:color .2s ease;}
-.row-chapters a b{font-family:"IBM Plex Mono",monospace; font-weight:500; font-size:10.5px; color:var(--ink-faint); margin-right:6px; letter-spacing:.04em;}
-.row-chapters a:hover{color:var(--accent);}
-.row-chapters a:hover b{color:var(--accent);}
 .index-foot{
   border-top:1px solid var(--rule);
   height:1px;
@@ -283,17 +278,6 @@ a.row:focus-visible{ outline:2px solid var(--accent); outline-offset:4px; }
         </span>
         <span class="row-arrow">→</span>
       </a>
-      <div class="row-chapters">
-        <a href="https://meta-puppet.github.io/genesis/#prologue"><b>Pro</b>ホワイトボードの前で</a>
-        <a href="https://meta-puppet.github.io/genesis/#ch01"><b>01</b>まずはカメラから</a>
-        <a href="https://meta-puppet.github.io/genesis/#ch02"><b>02</b>ポールの試作</a>
-        <a href="https://meta-puppet.github.io/genesis/#ch03"><b>03</b>フレームを立てる</a>
-        <a href="https://meta-puppet.github.io/genesis/#ch04"><b>04</b>サーボの前に、糸巻きだけを試す</a>
-        <a href="https://meta-puppet.github.io/genesis/#ch05"><b>05</b>サーボとドラム</a>
-        <a href="https://meta-puppet.github.io/genesis/#ch06"><b>06</b>マウントを一度作り直す</a>
-        <a href="https://meta-puppet.github.io/genesis/#ch07"><b>07</b>設計の比較 — 緑から灰色へ</a>
-        <a href="https://meta-puppet.github.io/genesis/#ch08"><b>08</b>2系統から4系統へ</a>
-      </div>
       <a class="row" href="https://meta-puppet.github.io/pipeline/">
         <span class="row-num">02</span>
         <span class="row-text">
@@ -302,16 +286,6 @@ a.row:focus-visible{ outline:2px solid var(--accent); outline-offset:4px; }
         </span>
         <span class="row-arrow">→</span>
       </a>
-      <div class="row-chapters">
-        <a href="https://meta-puppet.github.io/pipeline/#prologue"><b>Pro</b>まえがき</a>
-        <a href="https://meta-puppet.github.io/pipeline/#ch01"><b>01</b>各区間でのレイテンシの問題と対策</a>
-        <a href="https://meta-puppet.github.io/pipeline/#ch02"><b>02</b>ステレオカメラとRaspberry Pi上のエンコード</a>
-        <a href="https://meta-puppet.github.io/pipeline/#ch03"><b>03</b>独自のUDP伝送プロトコル</a>
-        <a href="https://meta-puppet.github.io/pipeline/#ch04"><b>04</b>TensorRTに置き換えて高速化をする</a>
-        <a href="https://meta-puppet.github.io/pipeline/#ch05"><b>05</b>マスキング、姿勢推定、手指トラッキングの合成</a>
-        <a href="https://meta-puppet.github.io/pipeline/#ch06"><b>06</b>SBSシェーダーで両目・色変換・合成をまとめて処理する</a>
-        <a href="https://meta-puppet.github.io/pipeline/#epilogue"><b>Epi</b>あとがき</a>
-      </div>
       <a class="row" href="https://meta-puppet.github.io/control/">
         <span class="row-num">03</span>
         <span class="row-text">
@@ -320,17 +294,6 @@ a.row:focus-visible{ outline:2px solid var(--accent); outline-offset:4px; }
         </span>
         <span class="row-arrow">→</span>
       </a>
-      <div class="row-chapters">
-        <a href="https://meta-puppet.github.io/control/#prologue"><b>Pro</b>まえがき</a>
-        <a href="https://meta-puppet.github.io/control/#ch01"><b>01</b>指のピンチをVR側でどう検出しているか</a>
-        <a href="https://meta-puppet.github.io/control/#ch02"><b>02</b>UnityからRaspberry PiへのUDPパケット</a>
-        <a href="https://meta-puppet.github.io/control/#ch03"><b>03</b>カメラPiとMotor Pi、2台構成にした理由</a>
-        <a href="https://meta-puppet.github.io/control/#ch04"><b>04</b>STSサーボと、自前で組み立てるシリアルパケット</a>
-        <a href="https://meta-puppet.github.io/control/#ch05"><b>05</b>ピンチ量を目標位置に変換するPD制御</a>
-        <a href="https://meta-puppet.github.io/control/#ch06"><b>06</b>現場での較正とマニュアル操作</a>
-        <a href="https://meta-puppet.github.io/control/#ch07"><b>07</b>安全設計 — 参加者の体に力を及ぼす機構であること</a>
-        <a href="https://meta-puppet.github.io/control/#epilogue"><b>Epi</b>あとがき</a>
-      </div>
       <a class="row" href="https://meta-puppet.github.io/experience/">
         <span class="row-num">04</span>
         <span class="row-text">
@@ -339,17 +302,14 @@ a.row:focus-visible{ outline:2px solid var(--accent); outline-offset:4px; }
         </span>
         <span class="row-arrow">→</span>
       </a>
-      <div class="row-chapters">
-        <a href="https://meta-puppet.github.io/experience/#prologue"><b>Pro</b>まえがき</a>
-        <a href="https://meta-puppet.github.io/experience/#ch01"><b>01</b>体験の進行と音楽の同期</a>
-        <a href="https://meta-puppet.github.io/experience/#ch02"><b>02</b>手の高さで叩くリズムゲーム</a>
-        <a href="https://meta-puppet.github.io/experience/#ch03"><b>03</b>マスクそのものを当たり判定にする</a>
-        <a href="https://meta-puppet.github.io/experience/#ch04"><b>04</b>Questの手を基準に、映像由来の姿勢を合わせ込む</a>
-        <a href="https://meta-puppet.github.io/experience/#ch05"><b>05</b>判定結果を、実際に腕を引くワイヤーへ送る</a>
-        <a href="https://meta-puppet.github.io/experience/#ch06"><b>06</b>朽ちた舞台とシェーダー</a>
-        <a href="https://meta-puppet.github.io/experience/#ch07"><b>07</b>XR側の設定と、会場での負荷対策</a>
-        <a href="https://meta-puppet.github.io/experience/#epilogue"><b>Epi</b>あとがき</a>
-      </div>
+      <a class="row" href="https://meta-puppet.github.io/pipeline/stability/">
+        <span class="row-num">05</span>
+        <span class="row-text">
+          <span class="row-label">GPUを落とさないための実装</span>
+          <span class="row-sub">pipeline appendix — 清水</span>
+        </span>
+        <span class="row-arrow">→</span>
+      </a>
       <div class="index-foot"></div>
     </nav>
 
